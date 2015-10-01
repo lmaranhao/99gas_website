@@ -17,6 +17,49 @@ body {
     height: 100%;
 }
 
+@media only screen and (min-width: 601px) {
+    #logo-container img {
+        height: 64px;
+    }
+    #index-banner {
+        padding-top: 64px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #logo-container img {
+        height: 56px;
+    }
+
+    #index-banner {
+        padding-top: 56px;
+    }
+}
+
+@media only screen and (min-width: 993px) {}
+
+footer.page-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+}
+
+footer .row {
+    margin-bottom: 0;
+}
+
 div.main-section {
     height: 100%;
 }
@@ -31,13 +74,4 @@ div.main-section.container {
 
 .icon-block .material-icons {
     font-size: inherit;
-}
-
-footer.page-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 0;
-    margin: 0;
 }
