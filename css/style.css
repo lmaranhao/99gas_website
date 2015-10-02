@@ -19,7 +19,8 @@ body {
 
 @media only screen and (min-width: 601px) {
     #logo-container img {
-        height: 64px;
+        height: 44px;
+        margin-top: 10px;
     }
     #index-banner {
         padding-top: 64px;
@@ -28,7 +29,8 @@ body {
 
 @media only screen and (max-width: 600px) {
     #logo-container img {
-        height: 56px;
+        height: 36px;
+        margin-top: 10px;
     }
 
     #index-banner {
