@@ -41,6 +41,10 @@ body {
 }
 @media only screen and (min-width: 993px) {}
 
+.store-logo {
+    height: 45px;
+}
+
 footer.page-footer {
     position: fixed;
     bottom: 0;
