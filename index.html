@@ -8,6 +8,7 @@
     <title>99gás</title>
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Ubuntu" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
@@ -15,30 +16,32 @@
 <body>
     <!-- Dropdown Structure -->
     <ul id="dropdown1" class="dropdown-content">
-        <li><a href="#!">Sobre Nós</a></li>
-        <li><a href="#!">Como Funciona</a></li>
+        <li><a class="nav-link red-text text-99" href="#!">Sobre Nós</a></li>
+        <li class="divider red 99"></li>
+        <li><a class="nav-link red-text text-99" href="#!">Como Funciona</a></li>
     </ul>
     <ul id="dropdown2" class="dropdown-content">
-        <li><a href="#!">Sobre Nós</a></li>
-        <li><a href="#!">Como Funciona</a></li>
+        <li><a class="nav-link red-text text-99" href="#!">Sobre Nós</a></li>
+        <li class="divider red 99"></li>
+        <li><a class="nav-link red-text text-99" href="#!">Como Funciona</a></li>
     </ul>
     <nav class="red 99" role="navigation">
         <div class="nav-wrapper container">
             <a id="logo-container" href="#" class="brand-logo"><img src="LogoTransparente.png" alt="Home"></a>
             <ul class="right hide-on-med-and-down">
                 <!-- Dropdown Trigger -->
-                <li><a class="dropdown-button" href="#!" data-activates="dropdown1">99gas<i class="material-icons right">arrow_drop_down</i></a></li>
-                <li><a href="#">Cidades</a></li>
-                <li><a href="http://web.staging.99gas.com/">Área da Revenda</a></li>
+                <li><a class="dropdown-button nav-link" href="#!" data-activates="dropdown1">99gás<i class="material-icons left left-closer">keyboard_arrow_down</i></a></li>
+                <li><a class="nav-link" href="#">Cidades</a></li>
+                <li><a class="nav-link" href="http://web.staging.99gas.com/">Área da Revenda</a></li>
             </ul>
             <ul id="nav-mobile" class="side-nav">
                 <!-- Dropdown Trigger -->
-                <li><a class="dropdown-button" href="#!" data-activates="dropdown2">99gas<i class="material-icons right">arrow_drop_down</i></a></li>
-                <li><a href="#">Cidades</a></li>
-                <li><a href="http://web.staging.99gas.com/">Área da Revenda</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Termos</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a class="dropdown-button-mobile nav-link red-text text-99" href="#!" data-activates="dropdown2">99gás<i class="material-icons right dropdown-mobile-arrow">keyboard_arrow_down</i></a></li>
+                <li><a class="nav-link red-text text-99" href="#">Cidades</a></li>
+                <li><a class="nav-link red-text text-99" href="http://web.staging.99gas.com/">Área da Revenda</a></li>
+                <li class="divider red 99"></li>
+                <li><a class="nav-link red-text text-99" href="#">Termos</a></li>
+                <li><a class="nav-link red-text text-99" href="#">Contato</a></li>
             </ul>
             <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
         </div>

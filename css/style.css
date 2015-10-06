@@ -35,6 +35,31 @@ body {
     #index-banner {
         padding-top: 56px;
     }
+    i.dropdown-mobile-arrow {
+        margin-top: 18px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .dropdown-content li > a {
+        padding: 0 15px 0 0;
+    }
+}
+
+@media only screen and (min-width: 993px) {}
+
+li.divider {
+    height: 2px;
+    margin-left: 10%;
+    width: 80%;
+}
+
+a:hover {
+    color: #FFB84D;
+}
+
+a.nav-link {
+    font-size: 1.2rem;
 }
 
 .red.99 {
