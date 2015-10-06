@@ -1,0 +1,8 @@
+#baseurl: /99gas_website
+url: "99gas.com"
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      title: 99gas

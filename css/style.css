@@ -48,6 +48,10 @@ body {
 
 @media only screen and (min-width: 993px) {}
 
+i.left-closer {
+    margin-right: 0;
+}
+
 li.divider {
     height: 2px;
     margin-left: 10%;
