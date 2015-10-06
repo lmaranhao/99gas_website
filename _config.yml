@@ -1,8 +1,14 @@
-#baseurl: /99gas_website
-url: "99gas.com"
+baseurl: /
+url: http://99gas.com
 defaults:
   -
     scope:
       path: ""
     values:
-      title: 99gas
+      title: 99gás
+      revenda_dashboard_url: http://web.staging.99gas.com
+      cidades: cidades.html
+      como: como.html
+      contato: contato.html
+      sobre: sobre.html
+      termos: termos.html
