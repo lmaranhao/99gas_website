@@ -132,8 +132,20 @@ nav {
     margin: 0;
 }
 
+nav ul a  {
+    padding-left: 40px;
+}
+a.nav-link {
+    font-size: 1.6rem;
+}
+
+nav .nav-wrapper i {
+    font-size: 2.6rem;
+}
+
 footer .row {
     margin-bottom: 0;
+    font-size: 21px;
 }
 
 div.main-section {
