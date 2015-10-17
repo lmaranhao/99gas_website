@@ -1,13 +1,7 @@
-/* Custom Stylesheet */
-
-
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
 html {
     font-family: Ubuntu, sans-serif;
     height: 100%;
@@ -34,6 +28,8 @@ body {
     }
     #index-banner {
         padding-top: 56px;
+        background: url(/cozinha_s.png) no-repeat center center fixed;
+        background-size: cover;
     }
     i.dropdown-mobile-arrow {
         margin-top: 18px;
@@ -44,9 +40,43 @@ body {
     .dropdown-content li > a {
         padding: 0 15px 0 0;
     }
+    #mao {
+        display: none;
+    }
 }
 
-@media only screen and (min-width: 993px) {}
+@media only screen and (min-width: 601px) {
+    #index-banner {
+        background: url(/cozinha_b.png) no-repeat center center fixed;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    #mao {
+        position: absolute;
+        bottom: 50px;
+        left: 60%;
+        padding: 0;
+        margin: 0;
+width: 40%;
+    height: auto;
+    max-width: 506px;
+    max-height: 565px;        
+    }
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.font-weight-light {
+    font-weight: 300 !important;
+}
+
+.font-weight-bold {
+    font-weight: 500 !important;
+}
 
 i.left-closer {
     margin-right: 0;
