@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     font-family: Ubuntu, sans-serif;
     height: 100%;
 }
@@ -10,6 +11,9 @@ html, body {
     }
     #index-banner {
         padding-top: 64px;
+    }
+    a.nav-link {
+        font-size: 1.6rem;
     }
 }
 
@@ -96,8 +100,6 @@ a.nav-link {
     color: #db3328 !important;
 }
 
-@media only screen and (min-width: 993px) {}
-
 .store-logo {
     height: 45px;
 }
@@ -122,10 +124,6 @@ nav {
 
 nav ul a {
     padding-left: 40px;
-}
-
-a.nav-link {
-    font-size: 1.6rem;
 }
 
 nav .nav-wrapper i {
