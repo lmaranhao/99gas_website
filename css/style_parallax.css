@@ -12,6 +12,14 @@ html {
     font-family: Ubuntu, sans-serif;
 }
 
+h2 {
+    letter-spacing: 0.15rem
+}
+
+h5 {
+    letter-spacing: 0.10rem
+}
+
 @media only screen and (min-width: 601px) {
     #logo-container img {
         height: 44px;
