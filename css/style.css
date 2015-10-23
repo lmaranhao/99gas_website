@@ -1,7 +1,23 @@
-html,
-body {
+/* Custom Stylesheet */
+
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+html {
     font-family: Ubuntu, sans-serif;
-    height: 100%;
+}
+
+h2 {
+    letter-spacing: 0.15rem
+}
+
+h5 {
+    letter-spacing: 0.10rem
 }
 
 @media only screen and (min-width: 601px) {
@@ -9,13 +25,8 @@ body {
         height: 44px;
         margin-top: 10px;
     }
-    #index-banner {
-        /*background: url(/cozinha-big.png) no-repeat center center fixed;*/
-        background-size: cover;
-        padding-top: 64px;
-    }
     a.nav-link {
-        font-size: 1.6rem;
+        font-size: 1.0rem;
     }
 }
 
@@ -24,51 +35,17 @@ body {
         height: 36px;
         margin-top: 10px;
     }
-    #index-banner {
-        padding-top: 56px;
-        /*background: url(/cozinha-small.png) no-repeat center center fixed;*/
-        background-size: cover;
-        align-items: baseline;
-    }
-    i.dropdown-mobile-arrow {
-        margin-top: 0;
-    }
-    .side-nav a {
-        color: #444;
-        display: block;
-        font-size: 1rem;
-        height: 32px;
-        line-height: 32px;
-        padding: 0 15px;
-        font-size: 1.2rem;
+    .parallax-container {
+        min-height: 420px !important;
     }
 }
 
-@media only screen and (max-width: 992px) {
-    .dropdown-content li > a {
-        padding: 0 15px 0 0;
-    }
-    #mao {
-        display: none;
-    }
+a:hover {
+    color: #FFB84D;
 }
 
-@media only screen and (min-width: 993px) {
-    #mao {
-        position: absolute;
-        bottom: 50px;
-        left: 60%;
-        padding: 0;
-        margin: 0;
-        width: 40%;
-        height: auto;
-        max-width: 506px;
-        max-height: 550px;
-    }
-}
-
-.no-margin {
-    margin: 0 !important;
+.store-logo {
+    height: 45px;
 }
 
 .font-weight-light {
@@ -79,69 +56,44 @@ body {
     font-weight: 500 !important;
 }
 
-i.left-closer {
-    margin-right: 0;
+.icon-block .padding {
+    padding-top: 57px;
 }
 
-li.divider {
-    height: 2px;
-    margin-left: 10%;
-    width: 80%;
+
+footer.page-footer{
+  padding-top: 10px
 }
 
-a:hover {
-    color: #FFB84D;
+p {
+    line-height: 2rem;
 }
 
-.red.99 {
-    background-color: #db3328 !important;
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
 }
 
-.red-text.text-99 {
-    color: #db3328 !important;
+.parallax-container .section {
+    width: 100%;
 }
 
-.store-logo {
-    height: 45px;
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
 }
 
-footer.page-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 0;
-    margin: 0;
-}
-
-nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul a {
-    padding-left: 40px;
-}
-
-nav .nav-wrapper i {
-    font-size: 2.6rem;
-}
-
-footer .row {
-    margin-bottom: 0;
-    font-size: 21px;
-}
-
-div.main-section {
-    height: 100%;
-}
-
-div.main-section.container {
-    height: 100%;
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
 }
 
 .icon-block {
@@ -150,4 +102,8 @@ div.main-section.container {
 
 .icon-block .material-icons {
     font-size: inherit;
+}
+
+footer.page-footer {
+    margin: 0;
 }
