@@ -21,32 +21,6 @@ h5 {
     letter-spacing: 0.10rem
 }
 
-@media only screen and (min-width: 601px) {
-    #logo-container img {
-        height: 44px;
-        margin-top: 10px;
-    }
-    #down-button-container {
-        height: calc(20% - 64px);
-    }
-    a.nav-link {
-        font-size: 1.0rem;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    #logo-container img {
-        height: 36px;
-        margin-top: 10px;
-    }
-    #down-button-container {
-        height: calc(20% - 56px);
-    }
-    .parallax-container {
-        min-height: 420px !important;
-    }
-}
-
 a:hover {
     color: #FFB84D;
 }
@@ -78,7 +52,7 @@ p {
 }
 
 .parallax-container {
-    min-height: 380px;
+    /*min-height: 380px;*/
     line-height: 0;
     height: auto;
     color: rgba(255, 255, 255, .9);
@@ -91,18 +65,6 @@ p {
 #index-banner {
     height: 80%;
     background-size: cover;
-}
-
-@media only screen and (max-width: 992px) {
-    #index-banner .section {
-        top: 10%;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    #index-banner .section {
-        top: 0;
-    }
 }
 
 .icon-block {
@@ -130,4 +92,76 @@ footer.sticky-footer {
 
 .section.sticky-footer {
     margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 601px) {
+    #logo-container img {
+        height: 44px;
+        margin-top: 10px;
+    }
+    #down-button-container {
+        height: calc(20% - 64px);
+    }
+    a.nav-link {
+        font-size: 1.0rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #logo-container img {
+        height: 36px;
+        margin-top: 10px;
+    }
+    #down-button-container {
+        height: calc(20% - 56px);
+    }
+    .parallax-container {
+        /*max-height: 320px !important;*/
+    }
+    .store-logo {
+        height: 35px;
+    }
+}
+
+@media only screen and (max-height: 300px) {
+    #down-button-link i {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (min-height: 301px) and (max-height: 400px) {
+    #down-button-link i {
+        font-size: 2.0rem;
+    }
+}
+
+@media only screen and (min-height: 401px) and (max-height: 500px) {
+    #down-button-link i {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-height: 501px) and (max-height: 600px) {
+    #down-button-link i {
+        font-size: 3.5rem;
+    }
+}
+
+@media only screen and (min-height: 601px) {
+    #down-button-link i {
+        font-size: 6.4rem;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
 }
