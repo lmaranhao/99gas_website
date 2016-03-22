@@ -29,6 +29,10 @@ a:hover {
     height: 45px;
 }
 
+a.brand-logo img {
+    height: 300px;
+    margin-left: -30px;
+}
 
 .font-weight-light {
     font-weight: 300 !important;
